@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style>
+        .form-group{
+            margin: 15px;
+        }
+        label{
+            display: inline-block;
+            width:100px ;
+        }
+        .form-control{
+            border-radius: 3px;
+        }
+        .danger-text{
+            color: red;
+        }
+        .success-text{
+            color: green;
+        }
+        .hidden-text{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<form action="#" name="register-form">
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" name="username" class="form-control">
+        <span class="danger-text hidden-text"></span>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" class="form-control">
+        <span class="danger-text hidden-text"></span>
+    </div>
+    <div class="form-group">
+        <label>Fullname</label>
+        <input type="text" name="fullName" class="form-control">
+        <span class="danger-text hidden-text"></span>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" name="email" class="form-control">
+        <span class="danger-text hidden-text"></span>
+    </div>
+    <div class="form-group">
+        <label>Phone</label>
+        <input type="number" name="phone" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>gender</label>
+        <select name="gender">
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+            <option value="2">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Hobby</label>
+        <input type="checkbox" name="hobby" class="form-control">
+        <span>thể thao, âm nhạc, đọc sách, khác,...</span>
+    </div>
+    <div class="form-group">
+        <label></label>
+        <input type="button" name="btn-submit" class="form-control" value="Submit">
+        <input type="reset" name="btn-reset" class="form-control" value="Reset">
+    </div>
+</form>
+<script src="dang%20ki.js"></script>
+
+</body>
+</html>
